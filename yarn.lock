@@ -449,10 +449,10 @@ eslint-config-standard@6.2.1:
   resolved "https://registry.yarnpkg.com/eslint-config-standard/-/eslint-config-standard-6.2.1.tgz#d3a68aafc7191639e7ee441e7348739026354292"
   integrity sha512-CIPBOuTRFzXaLTKtbGJi1pmgJrweQ4K9GW5Zu5ndEHWPCfNCQSIndLbuqtdpf5RW2F2ERqEEvwK9sT1HIL2wUg==
 
-eslint-plugin-promise@3.4.0:
-  version "3.4.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-promise/-/eslint-plugin-promise-3.4.0.tgz#6ba9048c2df57be77d036e0c68918bc9b4fc4195"
-  integrity sha512-TvtEdLgSNx61NGwd096oXgEfiCOtyGjJZUIpmPE8qDYNx6FlTqx90QCORz/+lkJC7M9AbGEqkb/C7tQuPppXww==
+eslint-plugin-promise@4.3.1:
+  version "4.3.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-promise/-/eslint-plugin-promise-4.3.1.tgz#61485df2a359e03149fdafc0a68b0e030ad2ac45"
+  integrity sha512-bY2sGqyptzFBDLh/GMbAxfdJC+b0f23ME63FOE4+Jao0oZ3E1LEwFtWJX/1pGMJLiTtrSSern2CRM/g+dfc0eQ==
 
 eslint-plugin-react@6.7.1:
   version "6.7.1"
