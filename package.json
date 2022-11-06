@@ -2,7 +2,7 @@
   "name": "honkit-plugin-prism",
   "description": "Prism highlighting for honkit",
   "main": "index.js",
-  "version": "2.4.0",
+  "version": "2.5.0",
   "scripts": {
     "lint": "eslint index.js test.js",
     "test": "npm run lint && tape test.js"

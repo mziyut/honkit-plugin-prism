@@ -4,6 +4,14 @@ All notable changes to this project will be documented in this file.
 ## [Unreleased]
 
 ### Added
+
+### Changed
+
+### Removed
+
+## [v2.5.0]
+
+### Added
 - Setup dependabot [#2](https://github.com/mziyut/honkit-plugin-prism/pull/2)
 
 ### Changed
