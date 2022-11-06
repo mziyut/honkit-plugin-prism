@@ -6,6 +6,7 @@ All notable changes to this project will be documented in this file.
 ### Added
 
 ### Changed
+- Bump mkdirp from 0.5.1 to 1.0.4 [#6](https://github.com/mziyut/honkit-plugin-prism/pull/6)
 
 ### Removed
 

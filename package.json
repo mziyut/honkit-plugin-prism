@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "cheerio": "0.22.0",
-    "mkdirp": "0.5.1",
+    "mkdirp": "1.0.4",
     "prismjs": "^1.15.0"
   },
   "devDependencies": {
