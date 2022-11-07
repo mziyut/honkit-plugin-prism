@@ -4,6 +4,7 @@ All notable changes to this project will be documented in this file.
 ## [Unreleased]
 
 ### Added
+- Define file field in packge.json [#11](https://github.com/mziyut/honkit-plugin-prism/pull/11)
 
 ### Changed
 - Bump eslint from 3.11.1 to 8.27.0 [#8](https://github.com/mziyut/honkit-plugin-prism/pull/8)
