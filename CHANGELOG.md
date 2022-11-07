@@ -6,6 +6,7 @@ All notable changes to this project will be documented in this file.
 ### Added
 
 ### Changed
+- Bump eslint from 3.11.1 to 8.27.0 [#8](https://github.com/mziyut/honkit-plugin-prism/pull/8)
 - Bump eslint-plugin-react from 6.7.1 to 7.31.10 [#3](https://github.com/mziyut/honkit-plugin-prism/pull/3)
 - Bump eslint-plugin-promise from 3.4.0 to 4.3.1 [#4](https://github.com/mziyut/honkit-plugin-prism/pull/4)
 - Bump eslint-plugin-standard from 2.0.1 to 2.3.1 [#5](https://github.com/mziyut/honkit-plugin-prism/pull/5)
