@@ -7,6 +7,7 @@ All notable changes to this project will be documented in this file.
 - Define file field in packge.json [#11](https://github.com/mziyut/honkit-plugin-prism/pull/11)
 
 ### Changed
+- Reconfigured to run test [#12](https://github.com/mziyut/honkit-plugin-prism/pull/12)
 - Bump eslint-plugin-standard from 2.3.1 to 5.0.0 [#10](https://github.com/mziyut/honkit-plugin-prism/pull/10)
 - Bump eslint from 3.11.1 to 8.27.0 [#8](https://github.com/mziyut/honkit-plugin-prism/pull/8)
 - Bump eslint-plugin-react from 6.7.1 to 7.31.10 [#3](https://github.com/mziyut/honkit-plugin-prism/pull/3)

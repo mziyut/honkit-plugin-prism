@@ -1,4 +1,4 @@
-var tester = require('gitbook-tester');
+var tester = require('honkit-tester');
 var test = require('tape');
 
 function expect(t, version, content, expected) {
@@ -34,7 +34,7 @@ test('highlight csharp code using shortcut', function (t) {
   t.plan(2);
 
   var content = '```cs\nusing System; class Program {public static void Main(string[] args) {Console.WriteLine("Hello, world!"); } }\n```';
-  var expected = '<pre class="language-"><code class="lang-cs"><span class="token keyword">using</span> System<span class="token punctuation">;</span> <span class="token keyword">class</span> <span class="token class-name">Program</span> <span class="token punctuation">{</span><span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">Main</span><span class="token punctuation">(</span><span class="token keyword">string</span><span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span> <span class="token punctuation">{</span>Console<span class="token punctuation">.</span><span class="token function">WriteLine</span><span class="token punctuation">(</span><span class="token string">&quot;Hello, world!&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token punctuation">}</span> <span class="token punctuation">}</span>\n</code></pre>';
+  var expected = '<pre class="language-"><code class="lang-cs"><span class="token keyword">using</span> <span class="token namespace">System</span><span class="token punctuation">;</span> <span class="token keyword">class</span> <span class="token class-name">Program</span> <span class="token punctuation">{</span><span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token return-type class-name"><span class="token keyword">void</span></span> <span class="token function">Main</span><span class="token punctuation">(</span><span class="token class-name"><span class="token keyword">string</span><span class="token punctuation">[</span><span class="token punctuation">]</span></span> args<span class="token punctuation">)</span> <span class="token punctuation">{</span>Console<span class="token punctuation">.</span><span class="token function">WriteLine</span><span class="token punctuation">(</span><span class="token string">"Hello, world!"</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token punctuation">}</span> <span class="token punctuation">}</span>\n</code></pre>';
   expect(t, '>=2.4.1', content, expected);
   expect(t, '>=3.0.0', content, expected);
 
