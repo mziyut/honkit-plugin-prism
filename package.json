@@ -36,6 +36,6 @@
     "eslint-plugin-react": "7.31.10",
     "eslint-plugin-standard": "5.0.0",
     "honkit-tester": "^1.9.7",
-    "tape": "^4.9.1"
+    "tape": "^5.6.1"
   }
 }
