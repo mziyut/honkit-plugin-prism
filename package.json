@@ -32,7 +32,7 @@
     "eslint": "8.27.0",
     "eslint-config-semistandard": "7.0.0",
     "eslint-config-standard": "6.2.1",
-    "eslint-plugin-promise": "4.3.1",
+    "eslint-plugin-promise": "6.1.1",
     "eslint-plugin-react": "7.31.11",
     "eslint-plugin-standard": "5.0.0",
     "honkit-tester": "^1.9.7",
