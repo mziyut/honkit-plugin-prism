@@ -1,0 +1,32 @@
+name: Deploy (docs)
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: "18"
+      - run: yarn install
+        working-directory: ./
+      - run: yarn run build
+        working-directory: ./
+      - run: npm i
+        working-directory: ./docs
+      - run: npm run build
+        working-directory: ./docs
+      - uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: gh-pages
+          folder: docs/_book
