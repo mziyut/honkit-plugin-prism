@@ -13,3 +13,9 @@ updates:
       interval: weekly
     reviewers:
       - mziyut
+  - package-ecosystem: npm
+    directory: "/docs"
+    schedule:
+      interval: weekly
+    reviewers:
+      - mziyut
