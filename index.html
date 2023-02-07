@@ -1,0 +1,344 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <title>README · HonKit</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="HonKit 4.0.0">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/honkit-plugin-prism/prism.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="LANGUAGES_EXAMPLE.html" />
+    
+    
+
+    </head>
+    <body>
+        
+<div class="book honkit-cloak">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter active" data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    README
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="LANGUAGES_EXAMPLE.html">
+            
+                <a href="LANGUAGES_EXAMPLE.html">
+            
+                    
+                    Languages example
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://github.com/honkit/honkit" target="blank" class="gitbook-link">
+            Published with HonKit
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >README</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="honkit-plugin-for-prism">Honkit Plugin for <a href="http://prismjs.com/" target="_blank">Prism</a></h1>
+<p><a href="https://www.npmjs.com/package/honkit-plugin-prism" target="_blank"><img src="http://img.shields.io/npm/v/honkit-plugin-prism.svg?style=flat-square&amp;label=npm" alt="NPM"></a></p>
+<p>This repository was forked from <a href="https://github.com/gaearon/gitbook-plugin-prism" target="_blank">gaearon/gitbook-plugin-prism</a> for the reason that the latest version of Honkit is not supported. <a href="https://github.com/gaearon/gitbook-plugin-prism/issues/42" target="_blank">issue</a></p>
+<h5 id="before">Before</h5>
+<p><img src="http://i.imgur.com/cbk6O52.png"></p>
+<h5 id="after">After</h5>
+<p><img src="http://i.imgur.com/S1YMlee.png"></p>
+<h2 id="usage">Usage</h2>
+<p>Add the plugin to your <code>book.json</code>, and disable default Honkit code highlighting:</p>
+<pre class="language-"><code class="lang-json"><span class="token punctuation">{</span>
+  <span class="token property">&quot;plugins&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">&quot;prism&quot;</span><span class="token punctuation">,</span> <span class="token string">&quot;-highlight&quot;</span><span class="token punctuation">]</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<h2 id="options">Options</h2>
+<h3 id="css"><code>css</code></h3>
+<p>Override default styles.  All css files must reside in the same folder.</p>
+<pre class="language-"><code class="lang-json"><span class="token property">&quot;pluginsConfig&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+  <span class="token property">&quot;prism&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token property">&quot;css&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+      <span class="token string">&quot;prismjs/themes/prism-solarizedlight.css&quot;</span>
+    <span class="token punctuation">]</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<h3 id="lang"><code>lang</code></h3>
+<p>Support non-standard syntax prefixes by aliasing existing prefixes.</p>
+<pre class="language-"><code class="lang-json"><span class="token property">&quot;pluginsConfig&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+  <span class="token property">&quot;prism&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token property">&quot;lang&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+      <span class="token property">&quot;flow&quot;</span><span class="token operator">:</span> <span class="token string">&quot;typescript&quot;</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<h3 id="ignore"><code>ignore</code></h3>
+<p>Due to other plugins using code block notion to denote other functionality, you can ignore certain langs</p>
+<pre class="language-"><code class="lang-json"><span class="token property">&quot;pluginsConfig&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+  <span class="token property">&quot;prism&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token property">&quot;ignore&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+      <span class="token string">&quot;mermaid&quot;</span><span class="token punctuation">,</span>
+      <span class="token string">&quot;eval-js&quot;</span>
+    <span class="token punctuation">]</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<h3 id="prism-themes">Prism Themes</h3>
+<p><a href="https://github.com/PrismJS/" target="_blank">https://github.com/PrismJS/prism</a></p>
+<h4 id="okaidia-prismjsthemesprism-okaidiacss">Okaidia <small><code>prismjs/themes/prism-okaidia.css</code></small></h4>
+<p><img src="http://i.imgur.com/uhe0yQY.png" alt="Okaidia"></p>
+<h4 id="solarized-light-prismjsthemesprism-solarizedlightcss">Solarized Light <small><code>prismjs/themes/prism-solarizedlight.css</code></small></h4>
+<p><img src="http://i.imgur.com/71sT5XB.png" alt="Solarized Light"></p>
+<h4 id="tomorrow-prismjsthemesprism-tomorrowcss">Tomorrow <small><code>prismjs/themes/prism-tomorrow.css</code></small></h4>
+<p><img src="http://i.imgur.com/Li3AHXU.png" alt="Tomorrow"></p>
+<h4 id="dark-prismjsthemesprism-darkcss">Dark <small><code>prismjs/themes/prism-dark.css</code></small></h4>
+<p><img src="http://i.imgur.com/vA5P6fy.png" alt="Dark"></p>
+<h4 id="coy-prismjsthemesprism-coycss">Coy <small><code>prismjs/themes/prism-coy.css</code></small></h4>
+<p><img src="http://i.imgur.com/kSJP9tq.png" alt="Coy"></p>
+<h2 id="atelierbram-themes">Atelierbram Themes</h2>
+<p><a href="https://github.com/atelierbram/syntax-highlighting" target="_blank">https://github.com/atelierbram/syntax-highlighting</a></p>
+<h4 id="base16-ocean-dark-syntax-highlightingassetscssprismprism-base16-oceandarkcss">Base16 Ocean Dark <small><code>syntax-highlighting/assets/css/prism/prism-base16-ocean.dark.css</code></small></h4>
+<p><img src="http://i.imgur.com/REJCdrA.png" alt="Base16 Ocean Dark"></p>
+<h4 id="google-light-syntax-highlightingassetscssprismprism-base16-googlelightcss">Google Light <small><code>syntax-highlighting/assets/css/prism/prism-base16-google.light.css</code></small></h4>
+<p><img src="http://i.imgur.com/TyBYmSu.png" alt="Google Light"></p>
+<h4 id="xonokai-syntax-highlightingassetscssprismprism-xonokaicss">Xonokai <small><code>syntax-highlighting/assets/css/prism/prism-xonokai.css</code></small></h4>
+<p><img src="http://i.imgur.com/fPjEEv8.png" alt="Google Light"></p>
+<h2 id="credits">Credits</h2>
+<p>Originally based on <a href="https://github.com/spricity/google_code_prettify" target="_blank">https://github.com/spricity/google_code_prettify</a>.</p>
+<h2 id="license">License</h2>
+<p>Apache 2</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                
+                <a href="LANGUAGES_EXAMPLE.html" class="navigation navigation-next navigation-unique" aria-label="Next page: Languages example">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"README","level":"1.1","depth":1,"next":{"title":"Languages example","level":"1.2","depth":1,"path":"LANGUAGES_EXAMPLE.md","ref":"LANGUAGES_EXAMPLE.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["prism","-highlight"],"pluginsConfig":{"prism":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"README.md","mtime":"2023-02-07T14:13:15.216Z","type":"markdown"},"gitbook":{"version":"4.0.0","time":"2023-02-07T14:13:30.021Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <noscript>
+        <style>
+            .honkit-cloak {
+                display: block !important;
+            }
+        </style>
+    </noscript>
+    <script>
+        // Restore sidebar state as critical path for prevent layout shift
+        function __init__getSidebarState(defaultValue){
+            var baseKey = "";
+            var key = baseKey + ":sidebar";
+            try {
+                var value = localStorage[key];
+                if (value === undefined) {
+                    return defaultValue;
+                }
+                var parsed = JSON.parse(value);
+                return parsed == null ? defaultValue : parsed;
+            } catch (e) {
+                return defaultValue;
+            }
+        }
+        function __init__restoreLastSidebarState() {
+            var isMobile = window.matchMedia("(max-width: 600px)").matches;
+            if (isMobile) {
+                // Init last state if not mobile
+                return;
+            }
+            var sidebarState = __init__getSidebarState(true);
+            var book = document.querySelector(".book");
+            // Show sidebar if it enabled
+            if (sidebarState && book) {
+                book.classList.add("without-animation", "with-summary");
+            }
+        }
+
+        try {
+            __init__restoreLastSidebarState();
+        } finally {
+            var book = document.querySelector(".book");
+            book.classList.remove("honkit-cloak");
+        }
+    </script>
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

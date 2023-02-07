@@ -1,0 +1,20 @@
+{
+  "name": "honkit-plugin-prism-docs",
+  "version": "0.1.0",
+  "description": "A HonKit plugin for Prism (docs)",
+  "main": "index.js",
+  "scripts": {
+    "build": "honkit build",
+    "dev": "honkit serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Honkit"
+  ],
+  "author": "Yuta Mizui <me@mziyut.com>",
+  "license": "MIT",
+  "dependencies": {
+    "honkit": "^4.0.0",
+    "honkit-plugin-prism": "../"
+  }
+}
