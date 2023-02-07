@@ -9,6 +9,9 @@ on:
 permissions:
   contents: write
 
+env:
+  NODE_VERSION: '18'
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -17,10 +20,8 @@ jobs:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
         with:
-          node-version: "18"
+          node-version: ${{ env.NODE_VERSION }}
       - run: yarn install
-        working-directory: ./
-      - run: yarn run build
         working-directory: ./
       - run: npm i
         working-directory: ./docs
