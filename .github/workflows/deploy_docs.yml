@@ -21,9 +21,9 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: ${{ env.NODE_VERSION }}
-      - run: yarn install
+      - run: npm install
         working-directory: ./
-      - run: npm i
+      - run: npm install
         working-directory: ./docs
       - run: npm run build
         working-directory: ./docs

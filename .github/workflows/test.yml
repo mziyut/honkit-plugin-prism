@@ -20,9 +20,9 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node }}
-          cache: "yarn"
-      - run: yarn install
-      - run: yarn run lint
+          cache: "npm"
+      - run: npm install
+      - run: npm run lint
 
   test:
     runs-on: ubuntu-latest
@@ -34,9 +34,9 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node }}
-          cache: "yarn"
-      - run: yarn install
-      - run: yarn run test
+          cache: "npm"
+      - run: npm install
+      - run: npm run test
 
   build_docs:
     runs-on: ubuntu-latest
@@ -48,9 +48,9 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node }}
-          cache: "yarn"
-      - run: yarn install
-      - run: npm i
+          cache: "npm"
+      - run: npm install
+      - run: npm install
         working-directory: ./docs
       - run: npm run build
         working-directory: ./docs
