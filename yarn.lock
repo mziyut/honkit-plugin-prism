@@ -1833,9 +1833,9 @@ highlight.js@^10.7.1:
   integrity sha512-tzcUFauisWKNHaRkN4Wjl/ZA07gENAjFl3J/c480dprkGTg5EQstgaNFqBfUqCq54kZRIEcreTsAgF/m2quD7A==
 
 honkit-tester@^1.9.7:
-  version "1.9.10"
-  resolved "https://registry.yarnpkg.com/honkit-tester/-/honkit-tester-1.9.10.tgz#f87a0456c275ece42810ea43074de8e289a2016f"
-  integrity sha512-JuQ/hyj4Tt1b+SGMNMEcOmo3sEZ2bleF9/+LY6eESeLe+lOkbY0YoujbKzRC9zZVoi+YLhJyGAiBJ6aQDZqnXA==
+  version "1.9.11"
+  resolved "https://registry.yarnpkg.com/honkit-tester/-/honkit-tester-1.9.11.tgz#69e4e8c5907a71c36a94d9025e3d29a46bb3084b"
+  integrity sha512-y7mmAc89QCVlcVh2ER16iVUeyKlaae4cKvCuf2bLOWYNmHjmA/P0/EtHXIK3xVm5Pkr2n2v34IYaa16eX/g5IA==
   dependencies:
     cheerio "^1.0.0-rc.12"
     fs-extra "^11.x"
