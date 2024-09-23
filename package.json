@@ -29,7 +29,7 @@
     "prismjs": "^1.15.0"
   },
   "devDependencies": {
-    "eslint": "8.57.0",
+    "eslint": "9.11.0",
     "eslint-config-semistandard": "7.0.0",
     "eslint-config-standard": "6.2.1",
     "eslint-plugin-promise": "7.0.0",
