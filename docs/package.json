@@ -14,7 +14,7 @@
   "author": "Yuta Mizui <me@mziyut.com>",
   "license": "MIT",
   "dependencies": {
-    "honkit": "^5.1.4",
+    "honkit": "^6.0.4",
     "honkit-plugin-prism": "../"
   }
 }
