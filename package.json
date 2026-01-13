@@ -6,7 +6,7 @@
     "index.js",
     "prism-ebook.css"
   ],
-  "version": "2.5.3",
+  "version": "2.5.4",
   "scripts": {
     "lint": "eslint index.js test.js",
     "test": "tape test.js"
